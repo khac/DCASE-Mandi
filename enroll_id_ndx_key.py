@@ -42,8 +42,8 @@ print(len(models))
 print(len(segments))
 
 key = sidekit.Key(models=np.array(models), testsegs=np.array(segments), trials=np.array(targets))
-key.write('/home/adit/Desktop/key1.h5')#DCASE2017-baseline-system-master/HDF5_DCASE/key4.h5')
+key.write('/home/adit/Desktop/key1.h5')
 
 ndx = key.to_ndx()
-ndx.write('/home/adit/Desktop/ndx1.h5')#DCASE2017-baseline-system-master/HDF5_DCASE/ndx4.h5')
+ndx.write('/home/adit/Desktop/ndx1.h5')
 
