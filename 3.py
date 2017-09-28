@@ -9,7 +9,7 @@ import numpy as np
 import _pickle as cPickle
 
 print('Load task definition')
-with open('/home/adit/Desktop/DCASE2017-baseline-system-master/Text_DCASE/fold1_train_names.txt') as inputFile:#'/home/deepu/research/DCASE2017/Data/ubm_list.txt') as inputFile:
+with open('/home/adit/Desktop/DCASE2017-baseline-system-master/Text_DCASE/fold1_train_names.txt') as inputFile:
     ubmList = inputFile.read().split('\n')
 nameList = []
 for a in ubmList:
